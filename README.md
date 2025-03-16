@@ -1,5 +1,7 @@
 # What is Substrata?
-Substrata is a compact and lightweight program written in Python to extract data from EOW reports from an anonymous oil and gas company's wells. Substrata allows users to extract necessary data and automatically format it into a table as required for their reports. Substrata is open source for transparency and security reasons, but the name of the company is not public.
+Substrata is a compact and lightweight program written in Python to extract data from EOW reports from an anonymous oil and gas company's wells. Substrata allows users to extract necessary data and automatically format it into a table as required for their reports. 
+
+Substrata is open source for transparency and security reasons, but the name of the company will not be revealed for legal reasons.
 
 # Setup
 
