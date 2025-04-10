@@ -754,12 +754,18 @@ def generate(data: pd.ExcelFile) -> None:
         end_time = 1
 
     for operation in days[0].copy():
-        if operation.get_from() < start_time:
-            days[0].remove(operation)
+        try:
+            if operation.get_from() < start_time:
+                days[0].remove(operation)
+        except:
+            pass
 
     for operation in days[-1].copy():
-        if operation.get_to() > end_time:
-            days[-1].remove(operation)
+        try:
+            if operation.get_to() > end_time:
+                days[-1].remove(operation)
+        except:
+            pass
 
 
     # Ask for line restriction threshold.
